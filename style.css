@@ -21,7 +21,7 @@ div .card{
 div .card-header
 { 
     margin-top: 10px;
-    background-color: #20e2b8;
+    background-color: #a18b7f;
     font-size: 25px;
     text-align: center;
     border-radius: 15px;
@@ -139,12 +139,12 @@ header.sticky .navigation li a
 header .navigation li a:hover{
     color: #ff0157;
 }
-section 
+.about
 {
-    padding-bottom: 200px;
-    padding-top: 190px;
-    padding-left: 40px;
-    padding-right: 10px;
+    padding-bottom: 100px;
+    padding-top: 155px;
+    padding-left: 175px;
+    padding-right: 75px;
     
 }
 .row
@@ -168,8 +168,8 @@ section
     color: #111;
     font-size: 2.5em;
     font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 7px;
+    margin-bottom: 15px;
 }
 .titleText span
 {
@@ -204,7 +204,13 @@ section
     align-items: center;
     flex-direction: column;
 }
-.yetenekler .content
+.Yetenekler
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.Yetenekler .content
 {
     display: flex;
     justify-content: center;
@@ -213,15 +219,10 @@ section
     
     
 }
-.yetenekler .content .card
+.Yetenekler .content .card
 {
-    width: 340px;
+    width: 350px;
     margin: 20px;
     border: 15px solid #fff;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
-}
-.yetenekler .row
-{
-    padding-left: 10px;
-    padding-right: 10px;
 }
